@@ -3,3 +3,4 @@ jdk:
   - oraclejdk8
 script:
   - gradle check
+  - gradle jar
