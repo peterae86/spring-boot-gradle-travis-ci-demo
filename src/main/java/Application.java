@@ -7,10 +7,10 @@ import org.springframework.context.annotation.ComponentScan;
  * Created by test on 2015/12/14.
  */
 @Configurable
-@ComponentScan
+@ComponentScan("com.test")
 @EnableAutoConfiguration
 public class Application {
     public static void main(String[] args) {
-        SpringApplication.run(Application.class);
+        SpringApplication.run(Application.class,args);
     }
 }
