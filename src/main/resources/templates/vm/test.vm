@@ -1,0 +1,191 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Home</title>
+
+    <!-- Set render engine for 360 browser -->
+    <meta name="renderer" content="webkit">
+
+    <!-- No Baidu Siteapp-->
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileColor" content="#0e90d2">
+
+    <link rel="stylesheet" href="../src/styles/common.css">
+    <link rel="stylesheet" href="../src/styles/page/login.css">
+</head>
+<body>
+<header class="am-topbar admin-header">
+    <div class="am-topbar-brand">
+        <strong>ACFuller Wireless</strong>
+    </div>
+</header>
+
+<div class="am-cf admin-main">
+    <!-- sidebar start -->
+    <div class="admin-sidebar am-offcanvas" id="admin-offcanvas">
+        <div class="am-offcanvas-bar admin-offcanvas-bar">
+            <ul class="am-list admin-sidebar-list">
+                <li><a href="admin-index.html"><span class="am-icon-home"></span> Unassigned Device</a></li>
+                <li class="admin-parent">
+                    <a class="am-cf" data-am-collapse="{target: '#collapse-nav'}"><span class="am-icon-file"></span> Location <span class="am-icon-angle-right am-fr am-margin-right"></span></a>
+                    <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav">
+                        <li><a href="javascrit:void(0)" class="am-cf"> Resturant1<span class="am-icon-circle am-fr am-margin-right" style="color:green"></span></a></li>
+                        <li><a href="javascrit:void(0)"> Resturant2<span class="am-icon-circle am-fr am-margin-right" style="color:red"></span></a></li>
+                        <!-- <li><a href="admin-gallery.html"><span class="am-icon-th"></span> 相册页面<span class="am-badge am-badge-secondary am-margin-right am-fr">24</span></a></li> -->
+                        <li><a href="admin-form.html"> Add New<span class="am-icon-plus am-fr am-margin-right"></span></a></li>
+                        <!-- <li><a href="admin-404.html"> 404<span class="am-icon-bug am-fr am-margin-right"></span></a></li> -->
+                    </ul>
+                    <a class="am-cf" data-am-collapse="{target: '#collapse-navs'}"><span class="am-icon-user"></span> My Account <span class="am-icon-angle-right am-fr am-margin-right"></span></a>
+                    <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-navs">
+                        <li><a href="javascrit:void(0)" class="am-cf"> Basic</a></li>
+                        <li><a href="javascrit:void(0)"> Location</a></li>
+                    </ul>
+                </li>
+                <li><a href="javascrit:void(0)"><span class="am-icon-qrcode"></span> Scan QR Code</a></li>
+                <li><a href="login.html"><span class="am-icon-sign-in"></span> Login</a></li>
+                <li><a href="javascrit:void(0)"><span class="am-icon-sign-out"></span> Logout</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- sidebar end -->
+
+    <!-- content start -->
+    <div class="admin-content">
+
+        <div class="am-cf am-padding">
+            <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">Unassigned Device</strong> / <small></small></div>
+        </div>
+
+        <div class="am-g">
+            <div class="am-u-sm-12">
+                <table class="am-table am-table-bd am-table-striped admin-content-table">
+                    <thead>
+                    <tr>
+                        <th>ID</th><th>NAME</th><th>TYPE</th><th>OPTION</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>John Clark</td>
+                        <td><a href="#">Business management</a></td>
+                        <td>
+                            <div class="am-dropdown" data-am-dropdown>
+                                <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle><span class="am-icon-cog"></span> <span class="am-icon-caret-down"></span></button>
+                                <ul class="am-dropdown-content">
+                                    <li><a href="#">Assgin</a></li>
+                                    <li><a href="#">Edit</a></li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr><td>2</td>
+                        <td>NEW-ONE-2015-2</td>
+                        <td><a href="#">AAAAAA</a></td>
+                        <td>
+                            <div class="am-dropdown" data-am-dropdown>
+                                <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle><span class="am-icon-cog"></span> <span class="am-icon-caret-down"></span></button>
+                                <ul class="am-dropdown-content">
+                                    <li><a href="#">Assgin</a></li>
+                                    <li><a href="#">Edit</a></li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>NEW-ONE-2015-3</td>
+                        <td>AA</td>
+                        <td>
+                            <div class="am-dropdown" data-am-dropdown>
+                                <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle><span class="am-icon-cog"></span> <span class="am-icon-caret-down"></span></button>
+                                <ul class="am-dropdown-content">
+                                    <li><a href="#">Assgin</a></li>
+                                    <li><a href="#">Edit</a></li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>NEW-ONE-2015-4</td>
+                        <td>AA</td>
+                        <td>
+                            <div class="am-dropdown" data-am-dropdown>
+                                <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle><span class="am-icon-cog"></span> <span class="am-icon-caret-down"></span></button>
+                                <ul class="am-dropdown-content">
+                                    <li><a href="#">Assgin</a></li>
+                                    <li><a href="#">Edit</a></li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>5</td>
+                        <td>NEW-ONE-2015-5</td>
+                        <td>AA</td>
+                        <td>
+                            <div class="am-dropdown" data-am-dropdown>
+                                <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle" data-am-dropdown-toggle><span class="am-icon-cog"></span> <span class="am-icon-caret-down"></span></button>
+                                <ul class="am-dropdown-content">
+                                    <li><a href="#">Assgin</a></li>
+                                    <li><a href="#">Edit</a></li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="am-g">
+
+
+            <div class="am-u-md-6">
+
+                <ul class="am-pagination am-fr admin-content-pagination">
+                    <li class="am-disabled"><a href="#">&laquo;</a></li>
+                    <li class="am-active"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">&raquo;</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- content end -->
+
+</div>
+
+<a href="javascript:void(0)" class="am-show-sm-only admin-menu" data-am-offcanvas="{target: '#admin-offcanvas'}">
+    <span class="am-icon-btn am-icon-th-list"></span>
+</a>
+
+<footer>
+    <hr>
+    <p class="am-padding-left">© 2015    ACFuller Wireless.</p>
+</footer>
+<script type="text/javascript" src="/static/prd/script/index-#include("./ver/prd/script/index.ver").js"></script>
+</body>
+</html>
